@@ -32,6 +32,7 @@ export const app = new Elysia({ aot: false })
   .use(usersController)
   .use(
     hubqlClient({
+      hubqlPath: "/",
       openAPIDoc: {
         url: "/swagger/json",
       },
