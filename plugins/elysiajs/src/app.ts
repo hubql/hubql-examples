@@ -6,7 +6,6 @@ import { hubqlClient } from "@hubql/elysia";
 import { storesController } from "./routes/stores";
 import { usersController } from "./routes/users";
 
-
 export const app = new Elysia({ aot: false })
   .use(
     swagger({
@@ -14,7 +13,7 @@ export const app = new Elysia({ aot: false })
       documentation: {
         servers: [
           {
-            url: 'https://hubql-elysia-demo.hubql.workers.dev',
+            url: "/",
             description: "Petstore Demo API",
           },
         ],
@@ -37,4 +36,5 @@ export const app = new Elysia({ aot: false })
         url: "/swagger/json",
       },
     })
-  ).get("/", () => "Hello from Hubql!");
+  )
+  .get("/", () => "Hello from Hubql!");
