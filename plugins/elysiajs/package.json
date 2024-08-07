@@ -1,0 +1,19 @@
+{
+    "name": "Hubql ElysiaJS Demo",
+    "version": "0.0.1",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "bun run --watch src/index.ts"
+    },
+    "dependencies": {
+        "@elysiajs/cors": "^1.1.0",
+        "@elysiajs/swagger": "^1.1.0",
+        "@hubql/elysia": "^0.0.2",
+        "elysia": "^1.1.4"
+    },
+    "devDependencies": {
+        "bun-types": "^1.1.21",
+        "wrangler": "^3.67.1"
+    },
+    "module": "src/index.js"
+}
