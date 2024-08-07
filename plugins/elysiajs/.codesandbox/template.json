@@ -1,0 +1,12 @@
+{
+    "title": "Hubql ElysiaJS",
+    "description": "Hubql ElysiaJS server plugin",
+    "tags": [
+        "hubql",
+        "elyisajs",
+        "openapi",
+        "swagger",
+        "typescript"
+    ],
+    "published": true
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Hubql NestJS",
+    "description": "Hubql NestJS server plugin",
+    "tags": [
+        "hubql",
+        "nestjs",
+        "openapi",
+        "swagger",
+        "typescript"
+    ],
+    "published": true
+}
