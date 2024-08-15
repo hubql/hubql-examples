@@ -1,0 +1,12 @@
+{
+    "title": "Hubql Fastify",
+    "description": "Hubql Fastify server plugin",
+    "tags": [
+        "hubql",
+        "fastify",
+        "openapi",
+        "swagger",
+        "typescript"
+    ],
+    "published": true
+}
